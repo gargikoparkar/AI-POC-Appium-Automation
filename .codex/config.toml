@@ -1,0 +1,35 @@
+[mcp_servers.appium-mcp]
+command = "cmd"
+args = ["/d", "/s", "/c", "appium-mcp"]
+startup_timeout_sec = 30
+tool_timeout_sec = 120
+
+[mcp_servers.appium-mcp.env]
+ANDROID_HOME = "C:\\Users\\GARGI KOARKAR\\AppData\\Local\\Android\\Sdk"
+CAPABILITIES_CONFIG = "C:\\Users\\GARGI KOARKAR\\Desktop\\appium-boilerplate-main-codex\\capabilities\\android.json"
+SCREENSHOTS_DIR = "C:\\Users\\GARGI KOARKAR\\Desktop\\appium-boilerplate-main-codex\\logs\\mcp-screenshots"
+NO_UI = "true"
+
+[mcp_servers.appium-mcp.tools.select_device]
+approval_mode = "approve"
+
+[mcp_servers.appium-mcp.tools.appium_session_management]
+approval_mode = "approve"
+
+[mcp_servers.appium-mcp.tools.appium_gesture]
+approval_mode = "approve"
+
+[mcp_servers.appium-mcp.tools.appium_screenshot]
+approval_mode = "approve"
+
+[mcp_servers.appium-mcp.tools.appium_app_lifecycle]
+approval_mode = "approve"
+
+[mcp_servers.appium-mcp.tools.appium_set_value]
+approval_mode = "approve"
+
+[mcp_servers.appium-mcp.tools.appium_alert]
+approval_mode = "approve"
+
+[mcp_servers.appium-mcp.tools.appium_mobile_keyboard]
+approval_mode = "approve"

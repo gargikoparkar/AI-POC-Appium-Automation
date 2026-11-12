@@ -1,0 +1,13 @@
+{
+    "android": {
+        "platformName": "Android",
+        "appium:automationName": "UiAutomator2",
+        "appium:deviceName": "Pixel 10 Pro",
+        "appium:udid": "emulator-5554",
+        "appium:app": "apps/android.wdio.native.app.v1.0.8.apk",
+        "appium:appPackage": "com.wdiodemoapp",
+        "appium:appActivity": ".MainActivity",
+        "appium:newCommandTimeout": 240,
+        "appium:autoGrantPermissions": true
+    }
+}
